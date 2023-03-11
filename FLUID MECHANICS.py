@@ -1,5 +1,5 @@
 3 # DESCRIPTION
-
+'''
 Here are some important formulas used in mechanical engineering for fluid mechanics:
 
 Bernoulli's Equation:
@@ -24,8 +24,8 @@ Darcy-Weisbach Equation: ΔP = f (L/D) (V^2/2g), where ΔP is the pressure drop,
 
 
 afolabiwale262@gmail.com
-write a python class that has functions for calculating the listed  formulars anD Also add some for at least twelve other important formulars in the same field
-Sure, here's an example Python class that includes functions for the fluid mechanics formulas you listed, as well as additional formulas in the same field:
+'''
+
 
 python
 Copy code
@@ -77,9 +77,9 @@ class MechanicalEngineeringFormulas:
     
     def stress_concentration_factor(self, stress_at_hole, nominal_stress):
         return stress_at_hole / nominal_stress
-This class includes functions for the fluid mechanics formulas you listed (reynolds_number, bernoullis_equation, pressure_drop_in_pipe) as well as additional mechanical engineering formulas that are commonly used in the field.
+'''This class includes functions for the fluid mechanics formulas you listed (reynolds_number, bernoullis_equation, pressure_drop_in_pipe) as well as additional mechanical engineering formulas that are commonly used in the field.
 
 For example, the torque function calculates the torque produced by a force applied at a distance from an axis of rotation. The `bending_stress
-
+'''
 
 
